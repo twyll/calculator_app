@@ -28,9 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.firstArgument = new System.Windows.Forms.TextBox();
+            this.secondArgument = new System.Windows.Forms.TextBox();
+            this.result = new System.Windows.Forms.TextBox();
             this.addition = new System.Windows.Forms.Button();
             this.substraction = new System.Windows.Forms.Button();
             this.multiplication = new System.Windows.Forms.Button();
@@ -40,36 +40,36 @@
             this.label3 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // textBox1
+            // firstArgument
             // 
-            this.textBox1.Location = new System.Drawing.Point(32, 46);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(99, 22);
-            this.textBox1.TabIndex = 0;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.firstArgument.Location = new System.Drawing.Point(32, 46);
+            this.firstArgument.Margin = new System.Windows.Forms.Padding(4);
+            this.firstArgument.Name = "firstArgument";
+            this.firstArgument.Size = new System.Drawing.Size(99, 22);
+            this.firstArgument.TabIndex = 0;
+            this.firstArgument.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
-            // textBox2
+            // secondArgument
             // 
-            this.textBox2.Location = new System.Drawing.Point(208, 46);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(99, 22);
-            this.textBox2.TabIndex = 1;
+            this.secondArgument.Location = new System.Drawing.Point(208, 46);
+            this.secondArgument.Margin = new System.Windows.Forms.Padding(4);
+            this.secondArgument.Name = "secondArgument";
+            this.secondArgument.Size = new System.Drawing.Size(99, 22);
+            this.secondArgument.TabIndex = 1;
             // 
-            // textBox3
+            // result
             // 
-            this.textBox3.Location = new System.Drawing.Point(57, 224);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(227, 22);
-            this.textBox3.TabIndex = 2;
-            this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
+            this.result.Location = new System.Drawing.Point(57, 224);
+            this.result.Margin = new System.Windows.Forms.Padding(4);
+            this.result.Name = "result";
+            this.result.Size = new System.Drawing.Size(227, 22);
+            this.result.TabIndex = 2;
+            this.result.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
             // addition
             // 
             this.addition.Location = new System.Drawing.Point(32, 95);
-            this.addition.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.addition.Margin = new System.Windows.Forms.Padding(4);
             this.addition.Name = "addition";
             this.addition.Size = new System.Drawing.Size(100, 28);
             this.addition.TabIndex = 3;
@@ -80,7 +80,7 @@
             // substraction
             // 
             this.substraction.Location = new System.Drawing.Point(32, 145);
-            this.substraction.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.substraction.Margin = new System.Windows.Forms.Padding(4);
             this.substraction.Name = "substraction";
             this.substraction.Size = new System.Drawing.Size(100, 28);
             this.substraction.TabIndex = 4;
@@ -91,7 +91,7 @@
             // multiplication
             // 
             this.multiplication.Location = new System.Drawing.Point(208, 95);
-            this.multiplication.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.multiplication.Margin = new System.Windows.Forms.Padding(4);
             this.multiplication.Name = "multiplication";
             this.multiplication.Size = new System.Drawing.Size(100, 28);
             this.multiplication.TabIndex = 5;
@@ -102,7 +102,7 @@
             // division
             // 
             this.division.Location = new System.Drawing.Point(208, 145);
-            this.division.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.division.Margin = new System.Windows.Forms.Padding(4);
             this.division.Name = "division";
             this.division.Size = new System.Drawing.Size(100, 28);
             this.division.TabIndex = 6;
@@ -154,10 +154,10 @@
             this.Controls.Add(this.multiplication);
             this.Controls.Add(this.substraction);
             this.Controls.Add(this.addition);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Controls.Add(this.result);
+            this.Controls.Add(this.secondArgument);
+            this.Controls.Add(this.firstArgument);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.Text = "Калькулятор";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -168,9 +168,9 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox firstArgument;
+        private System.Windows.Forms.TextBox secondArgument;
+        private System.Windows.Forms.TextBox result;
         private System.Windows.Forms.Button addition;
         private System.Windows.Forms.Button substraction;
         private System.Windows.Forms.Button multiplication;
@@ -178,22 +178,7 @@
 
         
 
-        //public static double add(double a, double b)
-        //{
-        //    return a + b;
-        //}
-        //public static double substr(double a, double b)
-        //{
-        //    return a - b;
-        //}
-        //public static double multiply(double a, double b)
-        //{
-        //    return a * b;
-        //}
-        //public static double div(double a, double b)
-        //{
-        //    return a / b;
-        //}
+       
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;

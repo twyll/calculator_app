@@ -21,24 +21,28 @@ namespace WindowsFormsApp3
         }
         private void buttonClick(object sender, EventArgs e)
         {
-            double firstArgument = Convert.ToDouble(textBox1.Text);
-            double secondArgument = Convert.ToDouble(textBox2.Text);
-            switch (((Button)sender).Name)
-            {
-                case "addition":
-                    textBox3.Text = Convert.ToString(add(firstArgument, secondArgument));
-                    break;
-                case "substraction":
-                    textBox3.Text = Convert.ToString(substr(firstArgument, secondArgument));
-                    break;
-                case "multiplication":
-                    textBox3.Text = Convert.ToString(multiply(firstArgument, secondArgument));
-                    break;
-                case "division":
-                    textBox3.Text = Convert.ToString(div(firstArgument, secondArgument));
-                    break;
+            double firstArgument = Convert.ToDouble(this.firstArgument.Text);
+            double secondArgument = Convert.ToDouble(this.secondArgument.Text);
+            string operationName = ((Button)sender).Name;
+            ICalculator calculator = CalculatorFactory.createCalculator(operationName);
+            double res = calculator.Calculate(firstArgument, secondArgument);
+            result.Text = Convert.ToString(res);
+            //switch (((Button)sender).Name)
+            //{
+            //    case "addition":
+            //        textBox3.Text = Convert.ToString(add(firstArgument, secondArgument));
+            //        break;
+            //    case "substraction":
+            //        textBox3.Text = Convert.ToString(substr(firstArgument, secondArgument));
+            //        break;
+            //    case "multiplication":
+            //        textBox3.Text = Convert.ToString(multiply(firstArgument, secondArgument));
+            //        break;
+            //    case "division":
+            //        textBox3.Text = Convert.ToString(div(firstArgument, secondArgument));
+            //        break;
 
-            }
+            //}
         }
         public static double add(double a, double b)
         {

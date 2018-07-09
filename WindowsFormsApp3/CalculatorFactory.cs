@@ -8,20 +8,21 @@ namespace WindowsFormsApp3
 {
     public static class CalculatorFactory
     {
-        public static ICalculator createCalculator(string operationName)
+        
+        public static  ICalculator createCalculator(string operationName)
             {
             switch (operationName)
             {
                 case "addition":
                     return new AdditionCalculator();
-                case "substruction":
+                case "substraction":
                     return new SubstractionCalculator();
-                case "muliplication":
+                case "multiplication":
                     return new MultiplicationCalculator();
                 case "division":
                     return new DivisionCalculator();
                 default:
-                    return null;
+                    throw new ArgumentException("Неизвестная операция", "operationName") ;
             }
             }
     }       
