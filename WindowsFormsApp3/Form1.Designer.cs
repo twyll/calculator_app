@@ -176,23 +176,24 @@
         private System.Windows.Forms.Button multiplication;
         private System.Windows.Forms.Button division;
 
+        
 
-        public static double add(double a, double b)
-        {
-            return a + b;
-        }
-        public static double substr(double a, double b)
-        {
-            return a - b;
-        }
-        public static double multiply(double a, double b)
-        {
-            return a * b;
-        }
-        public static double div(double a, double b)
-        {
-            return a / b;
-        }
+        //public static double add(double a, double b)
+        //{
+        //    return a + b;
+        //}
+        //public static double substr(double a, double b)
+        //{
+        //    return a - b;
+        //}
+        //public static double multiply(double a, double b)
+        //{
+        //    return a * b;
+        //}
+        //public static double div(double a, double b)
+        //{
+        //    return a / b;
+        //}
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;

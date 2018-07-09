@@ -40,6 +40,23 @@ namespace WindowsFormsApp3
 
             }
         }
+        public static double add(double a, double b)
+        {
+            return a + b;
+        }
+        public static double substr(double a, double b)
+        {
+            return a - b;
+        }
+        public static double multiply(double a, double b)
+        {
+            return a * b;
+        }
+        public static double div(double a, double b)
+        {
+            return a / b;
+        }
+
         private void label1_Click(object sender, EventArgs e)
         {
 
