@@ -29,22 +29,30 @@ namespace WindowsFormsApp3
 
         private void button1_Click(object sender, EventArgs e)
         {
-            textBox3.Text = Convert.ToString(sum(Convert.ToDouble(textBox1.Text), Convert.ToDouble(textBox2.Text)));
+            double firstArgument = Convert.ToDouble(textBox1.Text);
+            double secondArgument = Convert.ToDouble(textBox2.Text);
+            textBox3.Text = Convert.ToString(sum(firstArgument, secondArgument));
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            textBox3.Text = Convert.ToString(multiply(Convert.ToDouble(textBox1.Text), Convert.ToDouble(textBox2.Text)));
+            double firstArgument = Convert.ToDouble(textBox1.Text);
+            double secondArgument = Convert.ToDouble(textBox2.Text);
+            textBox3.Text = Convert.ToString(multiply(firstArgument, secondArgument));
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            textBox3.Text = Convert.ToString(diff(Convert.ToDouble(textBox1.Text), Convert.ToDouble(textBox2.Text)));
+            double firstArgument = Convert.ToDouble(textBox1.Text);
+            double secondArgument = Convert.ToDouble(textBox2.Text);
+            textBox3.Text = Convert.ToString(diff(firstArgument, secondArgument));
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            textBox3.Text = Convert.ToString(div(Convert.ToDouble(textBox1.Text), Convert.ToDouble(textBox2.Text)));
+            double firstArgument = Convert.ToDouble(textBox1.Text);
+            double secondArgument = Convert.ToDouble(textBox2.Text);
+            textBox3.Text = Convert.ToString(div(firstArgument, secondArgument));
         }
 
         private void label1_Click(object sender, EventArgs e)
