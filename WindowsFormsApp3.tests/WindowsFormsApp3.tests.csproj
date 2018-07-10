@@ -46,19 +46,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AdditionCalculator.Test.cs" />
-    <Compile Include="AdditionCalculator.TestCase.cs" />
-    <Compile Include="CosCalculator.Test.cs" />
-    <Compile Include="CosCalculator.TestCase.cs" />
-    <Compile Include="DivisionCalculator.Test.cs" />
-    <Compile Include="DivisionCalculator.TestCase.cs" />
-    <Compile Include="MultiplicationCalculator.Test.cs" />
-    <Compile Include="MultiplicationCalculator.TestCase.cs" />
+    <Compile Include="FactoryTest\TwoArgumentFactory.Test.cs" />
+    <Compile Include="SimpleTests\AdditionCalculator.Test.cs" />
+    <Compile Include="TestCases\AdditionCalculator.TestCase.cs" />
+    <Compile Include="SimpleTests\CosCalculator.Test.cs" />
+    <Compile Include="TestCases\CosCalculator.TestCase.cs" />
+    <Compile Include="SimpleTests\DivisionCalculator.Test.cs" />
+    <Compile Include="TestCases\DivisionCalculator.TestCase.cs" />
+    <Compile Include="SimpleTests\MultiplicationCalculator.Test.cs" />
+    <Compile Include="TestCases\MultiplicationCalculator.TestCase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SineCalculator.Test.cs" />
-    <Compile Include="SineCalculator.TestCase.cs" />
-    <Compile Include="SubstractionCalculator.Test.cs" />
-    <Compile Include="SubstractionCalculator.TestCase.cs" />
+    <Compile Include="SimpleTests\SineCalculator.Test.cs" />
+    <Compile Include="TestCases\SineCalculator.TestCase.cs" />
+    <Compile Include="SimpleTests\SubstractionCalculator.Test.cs" />
+    <Compile Include="TestCases\SubstractionCalculator.TestCase.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\WindowsFormsApp3\WindowsFormsApp3.csproj">

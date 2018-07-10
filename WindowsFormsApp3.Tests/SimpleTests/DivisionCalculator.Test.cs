@@ -16,7 +16,7 @@ namespace WindowsFormsApp3.Tests
             {
                 ITwoArgumentCalculator divisionCalculator = new DivisionCalculator();
                 double actualResult = divisionCalculator.Calculate(10, 10);
-                double estimatedResult = 20;
+                double estimatedResult = 1;
                 Assert.AreEqual(estimatedResult, actualResult);
             }
         }
