@@ -2,7 +2,7 @@
 
 namespace WindowsFormsApp3.OneArgumentOperation
 {
-    class OneArgumentCalculatorFactory
+    public class OneArgumentCalculatorFactory
     {
         public static IOneArgumentCalculator createCalculator(string operationName)
         {

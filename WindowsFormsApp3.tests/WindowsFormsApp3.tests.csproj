@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FactoryTest\OneArgumentFactory.Test.cs" />
     <Compile Include="FactoryTest\TwoArgumentFactory.Test.cs" />
     <Compile Include="SimpleTests\AdditionCalculator.Test.cs" />
     <Compile Include="TestCases\AdditionCalculator.TestCase.cs" />
