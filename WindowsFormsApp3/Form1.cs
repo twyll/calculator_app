@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
+using WindowsFormsApp3.OneArgumentOperation;
+using WindowsFormsApp3.TwoArgumentOperation;
 
 namespace WindowsFormsApp3
 {
