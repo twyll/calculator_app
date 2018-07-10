@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace WindowsFormsApp3
 {
-    public class SubstractionCalculator: ICalculator
+    public class SubstractionCalculator: I2ArgumentCalculator
     {
         public double Calculate(double firstValue, double secondValue)
         {

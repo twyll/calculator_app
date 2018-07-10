@@ -49,8 +49,8 @@
     <Compile Include="1 Argument operation\CosCalculator.cs" />
     <Compile Include="1 Argument operation\I1ArgumentCalculator.cs" />
     <Compile Include="2 Argument operation\AdditionCalculator.cs" />
-    <Compile Include="2 Argument operation\CalculatorFactory.cs" />
-    <Compile Include="2 Argument operation\ICalculator.cs" />
+    <Compile Include="2 Argument operation\2ArgumentCalculatorFactory.cs" />
+    <Compile Include="2 Argument operation\I2ArgumentCalculator.cs" />
     <Compile Include="2 Argument operation\DivisionCalculator.cs" />
     <Compile Include="2 Argument operation\MultiplicationCalculator.cs" />
     <Compile Include="1 Argument operation\SineCalculator.cs" />

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace WindowsFormsApp3
 {
-    public class DivisionCalculator : ICalculator
+    public class DivisionCalculator : I2ArgumentCalculator
     {
         public double Calculate(double firstValue, double secondValue)
         {

@@ -24,7 +24,7 @@ namespace WindowsFormsApp3
             double firstArgument = Convert.ToDouble(this.firstArgument.Text);
             double secondArgument = Convert.ToDouble(this.secondArgument.Text);
             string operationName = ((Button)sender).Name;
-            ICalculator calculator = CalculatorFactory.createCalculator(operationName);
+            I2ArgumentCalculator calculator = _2ArgumentCalculatorFactory.createCalculator(operationName);
             double res = calculator.Calculate(firstArgument, secondArgument);
             result.Text = Convert.ToString(res);
             result.Text = Convert.ToString(res);
