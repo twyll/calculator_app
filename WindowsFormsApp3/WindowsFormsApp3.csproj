@@ -45,6 +45,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="1 Argument operation\1ArgumentCalculatorFactory.cs" />
     <Compile Include="1 Argument operation\CosCalculator.cs" />
     <Compile Include="1 Argument operation\I1ArgumentCalculator.cs" />
     <Compile Include="2 Argument operation\AdditionCalculator.cs" />
