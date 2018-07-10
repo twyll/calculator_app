@@ -65,7 +65,7 @@
             // firstArgument
             // 
             this.firstArgument.Location = new System.Drawing.Point(32, 46);
-            this.firstArgument.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.firstArgument.Margin = new System.Windows.Forms.Padding(4);
             this.firstArgument.Name = "firstArgument";
             this.firstArgument.Size = new System.Drawing.Size(99, 22);
             this.firstArgument.TabIndex = 0;
@@ -74,7 +74,7 @@
             // secondArgument
             // 
             this.secondArgument.Location = new System.Drawing.Point(208, 46);
-            this.secondArgument.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.secondArgument.Margin = new System.Windows.Forms.Padding(4);
             this.secondArgument.Name = "secondArgument";
             this.secondArgument.Size = new System.Drawing.Size(99, 22);
             this.secondArgument.TabIndex = 1;
@@ -82,7 +82,7 @@
             // result
             // 
             this.result.Location = new System.Drawing.Point(383, 46);
-            this.result.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.result.Margin = new System.Windows.Forms.Padding(4);
             this.result.Name = "result";
             this.result.Size = new System.Drawing.Size(227, 22);
             this.result.TabIndex = 2;
@@ -91,7 +91,7 @@
             // addition
             // 
             this.addition.Location = new System.Drawing.Point(32, 95);
-            this.addition.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.addition.Margin = new System.Windows.Forms.Padding(4);
             this.addition.Name = "addition";
             this.addition.Size = new System.Drawing.Size(100, 28);
             this.addition.TabIndex = 3;
@@ -102,7 +102,7 @@
             // substraction
             // 
             this.substraction.Location = new System.Drawing.Point(32, 145);
-            this.substraction.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.substraction.Margin = new System.Windows.Forms.Padding(4);
             this.substraction.Name = "substraction";
             this.substraction.Size = new System.Drawing.Size(100, 28);
             this.substraction.TabIndex = 4;
@@ -113,7 +113,7 @@
             // multiplication
             // 
             this.multiplication.Location = new System.Drawing.Point(160, 95);
-            this.multiplication.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.multiplication.Margin = new System.Windows.Forms.Padding(4);
             this.multiplication.Name = "multiplication";
             this.multiplication.Size = new System.Drawing.Size(100, 28);
             this.multiplication.TabIndex = 5;
@@ -124,7 +124,7 @@
             // division
             // 
             this.division.Location = new System.Drawing.Point(160, 145);
-            this.division.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.division.Margin = new System.Windows.Forms.Padding(4);
             this.division.Name = "division";
             this.division.Size = new System.Drawing.Size(100, 28);
             this.division.TabIndex = 6;
@@ -168,7 +168,7 @@
             // cos
             // 
             this.cos.Location = new System.Drawing.Point(148, 335);
-            this.cos.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cos.Margin = new System.Windows.Forms.Padding(4);
             this.cos.Name = "cos";
             this.cos.Size = new System.Drawing.Size(100, 28);
             this.cos.TabIndex = 10;
@@ -179,7 +179,7 @@
             // sin
             // 
             this.sin.Location = new System.Drawing.Point(31, 335);
-            this.sin.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.sin.Margin = new System.Windows.Forms.Padding(4);
             this.sin.Name = "sin";
             this.sin.Size = new System.Drawing.Size(100, 28);
             this.sin.TabIndex = 11;
@@ -256,7 +256,7 @@
             this.geometric.TabIndex = 18;
             this.geometric.Text = "geometric";
             this.geometric.UseVisualStyleBackColor = true;
-            this.geometric.Click += new System.EventHandler(this.geometric_Click);
+            this.geometric.Click += new System.EventHandler(this.OpertionForTwoArgument);
             // 
             // negative
             // 
@@ -267,7 +267,7 @@
             this.negative.TabIndex = 19;
             this.negative.Text = "-x";
             this.negative.UseVisualStyleBackColor = true;
-            this.negative.Click += new System.EventHandler(this.button8_Click);
+            this.negative.Click += new System.EventHandler(this.OpertionForOneArgument);
             // 
             // arcsin
             // 
@@ -298,6 +298,7 @@
             this.arithmetic.TabIndex = 22;
             this.arithmetic.Text = "average";
             this.arithmetic.UseVisualStyleBackColor = true;
+            this.arithmetic.Click += new System.EventHandler(this.OpertionForTwoArgument);
             // 
             // integerDivision
             // 
@@ -318,6 +319,7 @@
             this.max.TabIndex = 24;
             this.max.Text = "max";
             this.max.UseVisualStyleBackColor = true;
+            this.max.Click += new System.EventHandler(this.OpertionForTwoArgument);
             // 
             // exp
             // 
@@ -338,6 +340,7 @@
             this.tenPowerOf.TabIndex = 26;
             this.tenPowerOf.Text = "10^x";
             this.tenPowerOf.UseVisualStyleBackColor = true;
+            this.tenPowerOf.Click += new System.EventHandler(this.OpertionForOneArgument);
             // 
             // twoPowerOf
             // 
@@ -348,6 +351,7 @@
             this.twoPowerOf.TabIndex = 27;
             this.twoPowerOf.Text = "2^x";
             this.twoPowerOf.UseVisualStyleBackColor = true;
+            this.twoPowerOf.Click += new System.EventHandler(this.OpertionForOneArgument);
             // 
             // naturalLogarithm
             // 
@@ -358,7 +362,7 @@
             this.naturalLogarithm.TabIndex = 28;
             this.naturalLogarithm.Text = "ln";
             this.naturalLogarithm.UseVisualStyleBackColor = true;
-            this.naturalLogarithm.Click += new System.EventHandler(this.naturalLogarithm_Click);
+            this.naturalLogarithm.Click += new System.EventHandler(this.OpertionForOneArgument);
             // 
             // logTwo
             // 
@@ -369,6 +373,7 @@
             this.logTwo.TabIndex = 29;
             this.logTwo.Text = "log2";
             this.logTwo.UseVisualStyleBackColor = true;
+            this.logTwo.Click += new System.EventHandler(this.OpertionForOneArgument);
             // 
             // logTen
             // 
@@ -379,6 +384,7 @@
             this.logTen.TabIndex = 30;
             this.logTen.Text = "log10";
             this.logTen.UseVisualStyleBackColor = true;
+            this.logTen.Click += new System.EventHandler(this.OpertionForOneArgument);
             // 
             // sqr
             // 
@@ -389,6 +395,7 @@
             this.sqr.TabIndex = 31;
             this.sqr.Text = "x^2";
             this.sqr.UseVisualStyleBackColor = true;
+            this.sqr.Click += new System.EventHandler(this.OpertionForOneArgument);
             // 
             // Form1
             // 
@@ -427,7 +434,7 @@
             this.Controls.Add(this.result);
             this.Controls.Add(this.secondArgument);
             this.Controls.Add(this.firstArgument);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.Text = "Калькулятор";
             this.Load += new System.EventHandler(this.Form1_Load);

@@ -21,22 +21,37 @@ namespace WindowsFormsApp3
         {
 
         }
+        
         private void OpertionForTwoArgument(object sender, EventArgs e)
         {
-            double firstArgument = Convert.ToDouble(this.firstArgument.Text);
-            double secondArgument = Convert.ToDouble(this.secondArgument.Text);
-            string operationName = ((Button)sender).Name;
-            ITwoArgumentCalculator calculator = TwoArgumentCalculatorFactory.createCalculator(operationName);
-            double res = calculator.Calculate(firstArgument, secondArgument);
-            result.Text = Convert.ToString(res);
+            try
+            {
+                double firstArgument = Convert.ToDouble(this.firstArgument.Text);
+                double secondArgument = Convert.ToDouble(this.secondArgument.Text);
+                string operationName = ((Button) sender).Name;
+                ITwoArgumentCalculator calculator = TwoArgumentCalculatorFactory.createCalculator(operationName);
+                double res = calculator.Calculate(firstArgument, secondArgument);
+                result.Text = Convert.ToString(res);
+            }
+            catch (Exception exc)
+            {
+                result.Text = exc.Message;
+            }
         }
         private void OpertionForOneArgument(object sender, EventArgs e)
         {
-            double argument = Convert.ToDouble(firstArgument.Text);
-            string operationName = ((Button)sender).Name;
-            IOneArgumentCalculator calculator = OneArgumentCalculatorFactory.createCalculator(operationName);
-            double res = calculator.Calculate(argument);
-            result.Text = Convert.ToString(res);
+            try
+            {
+                double argument = Convert.ToDouble(firstArgument.Text);
+                string operationName = ((Button) sender).Name;
+                IOneArgumentCalculator calculator = OneArgumentCalculatorFactory.createCalculator(operationName);
+                double res = calculator.Calculate(argument);
+                result.Text = Convert.ToString(res);
+            }
+            catch (Exception exc)
+            {
+                result.Text = exc.Message;
+            }
         }
 
             private void label1_Click(object sender, EventArgs e)

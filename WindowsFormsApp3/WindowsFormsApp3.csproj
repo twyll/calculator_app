@@ -45,10 +45,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="OneArgumentOperation\LogarithmForBaseTen.cs" />
+    <Compile Include="OneArgumentOperation\LogarithmForBaseTwo.cs" />
+    <Compile Include="OneArgumentOperation\NaturalLogarithmCalculator.cs" />
+    <Compile Include="OneArgumentOperation\NegativeArgumentCalculator.cs" />
     <Compile Include="OneArgumentOperation\OneArgumentCalculatorFactory.cs" />
     <Compile Include="OneArgumentOperation\CosCalculator.cs" />
     <Compile Include="OneArgumentOperation\IOneArgumentCalculator.cs" />
+    <Compile Include="OneArgumentOperation\PowerOfTwo.cs" />
+    <Compile Include="OneArgumentOperation\SquareCalculator.cs" />
+    <Compile Include="PowerOfTenCalculator.cs" />
     <Compile Include="TwoArgumentOperation\AdditionCalculator.cs" />
+    <Compile Include="TwoArgumentOperation\AverageArithmeticCalculator.cs" />
+    <Compile Include="TwoArgumentOperation\AverageGeometricCalculator.cs" />
+    <Compile Include="TwoArgumentOperation\maximumOfCalculator.cs" />
     <Compile Include="TwoArgumentOperation\TwoArgumentCalculatorFactory.cs" />
     <Compile Include="TwoArgumentOperation\ITwoArgumentCalculator.cs" />
     <Compile Include="TwoArgumentOperation\DivisionCalculator.cs" />

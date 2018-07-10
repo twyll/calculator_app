@@ -17,6 +17,12 @@ namespace WindowsFormsApp3.TwoArgumentOperation
                     return new MultiplicationCalculator();
                 case "division":
                     return new DivisionCalculator();
+                case "max":
+                    return new maximumOfCalculator();
+                case "arithmetic":
+                    return new AverageArithmeticCalculator();
+                case "geometric":
+                    return new AverageGeometricCalculator();
                 default:
                     throw new ArgumentException("Неизвестная операция", "operationName") ;
             }
