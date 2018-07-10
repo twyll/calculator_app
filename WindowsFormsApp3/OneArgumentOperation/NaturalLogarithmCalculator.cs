@@ -10,6 +10,8 @@ namespace WindowsFormsApp3.OneArgumentOperation
     {
         public double Calculate(double argument)
         {
+            if (argument <= 0)
+                throw new Exception("Неправильный аргумент");
             return Math.Log(argument);
         }
     }

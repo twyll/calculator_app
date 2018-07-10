@@ -14,10 +14,12 @@ namespace WindowsFormsApp3.Tests.TwoArgumentOperation
         [TestCase("max", typeof(MaximumOfCalculator))]
         [TestCase("arithmetic", typeof(AverageArithmeticCalculator))]
         [TestCase("geometric", typeof(AverageGeometricCalculator))]
+        [TestCase("min", typeof(MinimumOfCalculator))]
+        [TestCase("remainder",typeof(RemainderCalculator))]
+        [TestCase("integerDivision",typeof(IntegerDivisionCalculator))]
         public void CalculateTest(string name, Type type)
         {
             var calculator = TwoArgumentCalculatorFactory.createCalculator(name);
-
             Assert.IsInstanceOf(type, calculator);
         }
     }

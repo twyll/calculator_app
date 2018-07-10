@@ -24,6 +24,8 @@ namespace WindowsFormsApp3.OneArgumentOperation
                     return new PowerOfTwoCalculator();
                 case "tenPowerOf":
                     return new PowerOfTenCalculator();
+                case "negative":
+                    return new NegativeArgumentCalculator();
                 case "tan":
                     return new TanCalculator();
                 case "arcsin":
@@ -34,7 +36,7 @@ namespace WindowsFormsApp3.OneArgumentOperation
                     return new CtanCalculator();
                 case "arctan":
                     return new ArctanCalculator();
-                case "hypebola":
+                case "hyperbola":
                     return new HyperbolaCalculator();
                 case "exp":
                     return new ExpCalculator();

@@ -11,7 +11,7 @@ namespace WindowsFormsApp3.Tests.OneArgumentOperation
    [TestFixture]
    public class LogarithmForBaseTenCalculatorTestCase
     {
-        [TestCase(0, 1)]
+        [TestCase(1, 0)]
         [TestCase(1000, 3)]
         [TestCase(8, 0.9031)]
         public void CalculateTest(double firstValue, double expected)
@@ -19,6 +19,12 @@ namespace WindowsFormsApp3.Tests.OneArgumentOperation
             var calculator = new LogarithmForBaseTenCalculator();
             var actualResult = calculator.Calculate(firstValue);
             Assert.AreEqual(expected, actualResult, 0.0001);
+        }
+        [Test]
+        public void CathExceptions()
+        {
+            var calculator = new NaturalLogarithmCalculator();
+            Assert.Throws<Exception>(() => calculator.Calculate(0));
         }
     }
 }

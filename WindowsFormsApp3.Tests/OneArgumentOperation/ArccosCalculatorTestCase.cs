@@ -9,23 +9,24 @@ using NUnit.Framework;
 namespace WindowsFormsApp3.Tests.OneArgumentOperation
 {
     [TestFixture]
-    public class NaturalLogarithmCalculatorTestCase
+    public class ArccosCalculatorTestCase
     {
         [TestCase(1, 0)]
-        [TestCase(3, 1.0986)]
-        [TestCase(7, 1.9459)]
+        [TestCase(0.5, 1.04)]
+        [TestCase(-1, Math.PI)]
         public void CalculateTest(double firstValue, double expected)
         {
-            var calculator = new NaturalLogarithmCalculator();
+            var calculator = new ArccosCalculator();
             var actualResult = calculator.Calculate(firstValue);
-            Assert.AreEqual(expected, actualResult, 0.0001);
+            Assert.AreEqual(expected, actualResult, 0.01);
         }
 
-        [Test]
-        public void CathExceptions()
+        [TestCase(2)]
+        [TestCase(-2)]
+        public void CatchExceptions(double argument)
         {
-            var calculator = new NaturalLogarithmCalculator();
-            Assert.Throws<Exception>(() => calculator.Calculate(0));
+            var calculator = new ArccosCalculator();
+            Assert.Throws<Exception>(() => calculator.Calculate(argument));
         }
     }
 }

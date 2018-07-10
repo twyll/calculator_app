@@ -81,7 +81,7 @@
             // 
             this.result.Location = new System.Drawing.Point(248, 37);
             this.result.Name = "result";
-            this.result.Size = new System.Drawing.Size(163, 20);
+            this.result.Size = new System.Drawing.Size(250, 20);
             this.result.TabIndex = 2;
             this.result.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
@@ -148,7 +148,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(301, 18);
+            this.label3.Location = new System.Drawing.Point(342, 21);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(59, 13);
             this.label3.TabIndex = 9;

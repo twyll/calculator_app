@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="OneArgumentOperation\ArccosCalculatorTestCase.cs" />
+    <Compile Include="OneArgumentOperation\ArcsinCalculatorTestCase.cs" />
+    <Compile Include="OneArgumentOperation\ArctanCalculatorTestCase.cs" />
+    <Compile Include="OneArgumentOperation\CtanCalculatorTestCase.cs" />
+    <Compile Include="OneArgumentOperation\ExpCalculatorTestCase.cs" />
+    <Compile Include="OneArgumentOperation\HyperbolaCalculatorTestCase.cs" />
     <Compile Include="OneArgumentOperation\LogarithmForBaseTenCalculatorTestCase.cs" />
     <Compile Include="OneArgumentOperation\LogarithmForBaseTwoCalculatorTestCase.cs" />
     <Compile Include="OneArgumentOperation\NaturalLogarithmCalculatorTestCase.cs" />
@@ -54,22 +60,22 @@
     <Compile Include="OneArgumentOperation\PowerOfTenCalculatorTestCase.cs" />
     <Compile Include="OneArgumentOperation\PowerOfTwoCalculatorTestCase.cs" />
     <Compile Include="OneArgumentOperation\SquareCalculatorTestCase.cs" />
+    <Compile Include="OneArgumentOperation\TanCalculatorTestCase.cs" />
     <Compile Include="TwoArgumentOperation\AverageArithmeticCalculatorTestCase.cs" />
     <Compile Include="TwoArgumentOperation\AverageGeometricCalculatorTestCase.cs" />
+    <Compile Include="TwoArgumentOperation\IntegerDivisionCalculatorTestCase.cs" />
     <Compile Include="TwoArgumentOperation\MaximumOfCalculatorTestCase.cs" />
+    <Compile Include="TwoArgumentOperation\MinimumOfCalculatorTestCase.cs" />
+    <Compile Include="TwoArgumentOperation\RemainderCalculatorTestCase.cs" />
     <Compile Include="TwoArgumentOperation\TwoArgumentFactoryTest.cs" />
-    <Compile Include="TwoArgumentOperation\AdditionCalculatorTest.cs" />
     <Compile Include="TwoArgumentOperation\AdditionCalculatorTestCase.cs" />
     <Compile Include="OneArgumentOperation\CosCalculatorTest.cs" />
     <Compile Include="OneArgumentOperation\CosCalculatorTestCase.cs" />
-    <Compile Include="TwoArgumentOperation\DivisionCalculatorTest.cs" />
     <Compile Include="TwoArgumentOperation\DivisionCalculatorTestCase.cs" />
-    <Compile Include="TwoArgumentOperation\MultiplicationCalculatorTest.cs" />
     <Compile Include="TwoArgumentOperation\MultiplicationCalculatorTestCase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="OneArgumentOperation\SineCalculatorTest.cs" />
     <Compile Include="OneArgumentOperation\SineCalculatorTestCase.cs" />
-    <Compile Include="TwoArgumentOperation\SubstractionCalculatorTest.cs" />
     <Compile Include="TwoArgumentOperation\SubstractionCalculatorTestCase.cs" />
   </ItemGroup>
   <ItemGroup>

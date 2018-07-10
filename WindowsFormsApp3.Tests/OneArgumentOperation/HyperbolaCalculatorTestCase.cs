@@ -9,23 +9,22 @@ using NUnit.Framework;
 namespace WindowsFormsApp3.Tests.OneArgumentOperation
 {
     [TestFixture]
-    public class NaturalLogarithmCalculatorTestCase
+    public class HyperbolaCalculatorTestCase
     {
-        [TestCase(1, 0)]
-        [TestCase(3, 1.0986)]
-        [TestCase(7, 1.9459)]
+        [TestCase(1, 1)]
+        [TestCase(0.5, 2)]
+        [TestCase(-1, -1)]
         public void CalculateTest(double firstValue, double expected)
         {
-            var calculator = new NaturalLogarithmCalculator();
+            var calculator = new HyperbolaCalculator();
             var actualResult = calculator.Calculate(firstValue);
-            Assert.AreEqual(expected, actualResult, 0.0001);
+            Assert.AreEqual(expected, actualResult, 0.01);
         }
-
         [Test]
-        public void CathExceptions()
+        public void CatchExceptions()
         {
-            var calculator = new NaturalLogarithmCalculator();
-            Assert.Throws<Exception>(() => calculator.Calculate(0));
+            var hyperbolaCalculator = new HyperbolaCalculator();
+            Assert.Throws<Exception>(()=>hyperbolaCalculator.Calculate(0));
         }
     }
 }

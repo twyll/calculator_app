@@ -1,0 +1,24 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using WindowsFormsApp3.OneArgumentOperation;
+using NUnit.Framework;
+
+namespace WindowsFormsApp3.Tests.OneArgumentOperation
+{
+    [TestFixture]
+    public class ArctanCalculatorTestCase
+    {
+        [TestCase(1, 0.78)]
+        [TestCase(0.5, 0.46)]
+        [TestCase(-1, -0.78)]
+        public void CalculateTest(double firstValue, double expected)
+        {
+            var calculator = new ArctanCalculator();
+            var actualResult = calculator.Calculate(firstValue);
+            Assert.AreEqual(expected, actualResult, 0.01);
+        }
+    }
+}
