@@ -73,7 +73,7 @@
             this.addition.TabIndex = 3;
             this.addition.Text = "+";
             this.addition.UseVisualStyleBackColor = true;
-            this.addition.Click += new System.EventHandler(this.buttonClick);
+            this.addition.Click += new System.EventHandler(this.OpertionForTwoArgument);
             // 
             // substraction
             // 
@@ -83,7 +83,7 @@
             this.substraction.TabIndex = 4;
             this.substraction.Text = "-";
             this.substraction.UseVisualStyleBackColor = true;
-            this.substraction.Click += new System.EventHandler(this.buttonClick);
+            this.substraction.Click += new System.EventHandler(this.OpertionForTwoArgument);
             // 
             // multiplication
             // 
@@ -93,7 +93,7 @@
             this.multiplication.TabIndex = 5;
             this.multiplication.Text = "*";
             this.multiplication.UseVisualStyleBackColor = true;
-            this.multiplication.Click += new System.EventHandler(this.buttonClick);
+            this.multiplication.Click += new System.EventHandler(this.OpertionForTwoArgument);
             // 
             // division
             // 
@@ -103,7 +103,7 @@
             this.division.TabIndex = 6;
             this.division.Text = "/";
             this.division.UseVisualStyleBackColor = true;
-            this.division.Click += new System.EventHandler(this.buttonClick);
+            this.division.Click += new System.EventHandler(this.OpertionForTwoArgument);
             // 
             // label1
             // 
@@ -143,6 +143,7 @@
             this.cos.TabIndex = 10;
             this.cos.Text = "cos";
             this.cos.UseVisualStyleBackColor = true;
+            this.cos.Click += new System.EventHandler(this.OpertionForOneArgument);
             // 
             // sin
             // 
@@ -152,6 +153,7 @@
             this.sin.TabIndex = 11;
             this.sin.Text = "sin";
             this.sin.UseVisualStyleBackColor = true;
+            this.sin.Click += new System.EventHandler(this.OpertionForOneArgument);
             // 
             // Form1
             // 
