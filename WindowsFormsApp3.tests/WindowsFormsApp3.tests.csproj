@@ -46,21 +46,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FactoryTest\OneArgumentFactory.Test.cs" />
-    <Compile Include="FactoryTest\TwoArgumentFactory.Test.cs" />
-    <Compile Include="SimpleTests\AdditionCalculator.Test.cs" />
-    <Compile Include="TestCases\AdditionCalculator.TestCase.cs" />
-    <Compile Include="SimpleTests\CosCalculator.Test.cs" />
-    <Compile Include="TestCases\CosCalculator.TestCase.cs" />
-    <Compile Include="SimpleTests\DivisionCalculator.Test.cs" />
-    <Compile Include="TestCases\DivisionCalculator.TestCase.cs" />
-    <Compile Include="SimpleTests\MultiplicationCalculator.Test.cs" />
-    <Compile Include="TestCases\MultiplicationCalculator.TestCase.cs" />
+    <Compile Include="Exceptions.cs" />
+    <Compile Include="OneArgumentOperation\OneArgumentFactoryTest.cs" />
+    <Compile Include="TwoArgumentOperation\TwoArgumentFactoryTest.cs" />
+    <Compile Include="TwoArgumentOperation\AdditionCalculatorTest.cs" />
+    <Compile Include="TwoArgumentOperation\AdditionCalculatorTestCase.cs" />
+    <Compile Include="OneArgumentOperation\CosCalculatorTest.cs" />
+    <Compile Include="OneArgumentOperation\CosCalculatorTestCase.cs" />
+    <Compile Include="TwoArgumentOperation\DivisionCalculatorTest.cs" />
+    <Compile Include="TwoArgumentOperation\DivisionCalculatorTestCase.cs" />
+    <Compile Include="TwoArgumentOperation\MultiplicationCalculatorTest.cs" />
+    <Compile Include="TwoArgumentOperation\MultiplicationCalculatorTestCase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SimpleTests\SineCalculator.Test.cs" />
-    <Compile Include="TestCases\SineCalculator.TestCase.cs" />
-    <Compile Include="SimpleTests\SubstractionCalculator.Test.cs" />
-    <Compile Include="TestCases\SubstractionCalculator.TestCase.cs" />
+    <Compile Include="OneArgumentOperation\SineCalculatorTest.cs" />
+    <Compile Include="OneArgumentOperation\SineCalculatorTestCase.cs" />
+    <Compile Include="TwoArgumentOperation\SubstractionCalculatorTest.cs" />
+    <Compile Include="TwoArgumentOperation\SubstractionCalculatorTestCase.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\WindowsFormsApp3\WindowsFormsApp3.csproj">

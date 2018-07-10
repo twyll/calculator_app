@@ -1,12 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using WindowsFormsApp3.TwoArgumentOperation;
 using NUnit.Framework;
 
-namespace WindowsFormsApp3.Tests
+namespace WindowsFormsApp3.Tests.TwoArgumentOperation
 {
         [TestFixture]
         public class DivisionCalculatorTests
@@ -19,5 +15,12 @@ namespace WindowsFormsApp3.Tests
                 double estimatedResult = 1;
                 Assert.AreEqual(estimatedResult, actualResult);
             }
-        }
+
+            [Test]
+            public void catchExceptions()
+            {
+            ITwoArgumentCalculator divisionCalculator = new DivisionCalculator();
+            Assert.Throws<Exception>(() => divisionCalculator.Calculate(1,0));
+            }
+    }
 }

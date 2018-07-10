@@ -1,12 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using WindowsFormsApp3.OneArgumentOperation;
 using NUnit.Framework;
 
-namespace WindowsFormsApp3.Tests
+namespace WindowsFormsApp3.Tests.OneArgumentOperation
 {
     [TestFixture]
     public class CosCalculatorTestCase

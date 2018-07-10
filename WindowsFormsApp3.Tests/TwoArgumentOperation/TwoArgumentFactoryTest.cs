@@ -2,7 +2,7 @@
 using WindowsFormsApp3.TwoArgumentOperation;
 using NUnit.Framework;
 
-namespace WindowsFormsApp3.Tests.FactoryTest
+namespace WindowsFormsApp3.Tests.TwoArgumentOperation
 {
     [TestFixture]
     public class TwoArgumentFactoryTests
