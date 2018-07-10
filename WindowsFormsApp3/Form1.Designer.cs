@@ -281,7 +281,7 @@
             this.arithmetic.Name = "arithmetic";
             this.arithmetic.Size = new System.Drawing.Size(75, 23);
             this.arithmetic.TabIndex = 22;
-            this.arithmetic.Text = "average";
+            this.arithmetic.Text = "arithmetic";
             this.arithmetic.UseVisualStyleBackColor = true;
             this.arithmetic.Click += new System.EventHandler(this.OpertionForTwoArgument);
             // 

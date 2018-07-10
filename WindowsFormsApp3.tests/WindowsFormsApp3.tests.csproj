@@ -46,7 +46,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="OneArgumentOperation\LogarithmForBaseTenCalculatorTestCase.cs" />
+    <Compile Include="OneArgumentOperation\LogarithmForBaseTwoCalculatorTestCase.cs" />
+    <Compile Include="OneArgumentOperation\NaturalLogarithmCalculatorTestCase.cs" />
+    <Compile Include="OneArgumentOperation\NegativeArgumentCalculatorTestCase.cs" />
     <Compile Include="OneArgumentOperation\OneArgumentFactoryTest.cs" />
+    <Compile Include="OneArgumentOperation\PowerOfTenCalculatorTestCase.cs" />
+    <Compile Include="OneArgumentOperation\PowerOfTwoCalculatorTestCase.cs" />
+    <Compile Include="OneArgumentOperation\SquareCalculatorTestCase.cs" />
+    <Compile Include="TwoArgumentOperation\AverageArithmeticCalculatorTestCase.cs" />
+    <Compile Include="TwoArgumentOperation\AverageGeometricCalculatorTestCase.cs" />
+    <Compile Include="TwoArgumentOperation\MaximumOfCalculatorTestCase.cs" />
     <Compile Include="TwoArgumentOperation\TwoArgumentFactoryTest.cs" />
     <Compile Include="TwoArgumentOperation\AdditionCalculatorTest.cs" />
     <Compile Include="TwoArgumentOperation\AdditionCalculatorTestCase.cs" />

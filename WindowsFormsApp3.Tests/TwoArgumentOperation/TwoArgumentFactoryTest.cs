@@ -11,6 +11,9 @@ namespace WindowsFormsApp3.Tests.TwoArgumentOperation
         [TestCase("substraction", typeof(SubstractionCalculator))]
         [TestCase("multiplication", typeof(MultiplicationCalculator))]
         [TestCase("division", typeof(DivisionCalculator))]
+        [TestCase("max", typeof(MaximumOfCalculator))]
+        [TestCase("arithmetic", typeof(AverageArithmeticCalculator))]
+        [TestCase("geometric", typeof(AverageGeometricCalculator))]
         public void CalculateTest(string name, Type type)
         {
             var calculator = TwoArgumentCalculatorFactory.createCalculator(name);

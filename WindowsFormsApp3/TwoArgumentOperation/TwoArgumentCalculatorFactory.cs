@@ -18,13 +18,13 @@ namespace WindowsFormsApp3.TwoArgumentOperation
                 case "division":
                     return new DivisionCalculator();
                 case "max":
-                    return new maximumOfCalculator();
+                    return new MaximumOfCalculator();
                 case "arithmetic":
                     return new AverageArithmeticCalculator();
                 case "geometric":
                     return new AverageGeometricCalculator();
                 case "min":
-                    return new minimumOfCalculator();
+                    return new MinimumOfCalculator();
                 case "remainder":
                     return new RemainderCalculator();
                 case "integerDivision":

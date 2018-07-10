@@ -66,8 +66,8 @@
     <Compile Include="TwoArgumentOperation\AverageArithmeticCalculator.cs" />
     <Compile Include="TwoArgumentOperation\AverageGeometricCalculator.cs" />
     <Compile Include="TwoArgumentOperation\IntegerDivisionCalculator.cs" />
-    <Compile Include="TwoArgumentOperation\maximumOfCalculator.cs" />
-    <Compile Include="TwoArgumentOperation\minimumOfCalculator.cs" />
+    <Compile Include="TwoArgumentOperation\MaximumOfCalculator.cs" />
+    <Compile Include="TwoArgumentOperation\MinimumOfCalculator.cs" />
     <Compile Include="TwoArgumentOperation\RemainderCalculator.cs" />
     <Compile Include="TwoArgumentOperation\TwoArgumentCalculatorFactory.cs" />
     <Compile Include="TwoArgumentOperation\ITwoArgumentCalculator.cs" />

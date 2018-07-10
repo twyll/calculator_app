@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace WindowsFormsApp3.TwoArgumentOperation
 {
-    public class minimumOfCalculator : ITwoArgumentCalculator
+    public class MinimumOfCalculator : ITwoArgumentCalculator
     {
         public double Calculate(double firstValue, double secondValue)
         {

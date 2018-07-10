@@ -9,6 +9,13 @@ namespace WindowsFormsApp3.Tests.OneArgumentOperation
     {
         [TestCase("sin", typeof(SineCalculator))]
         [TestCase("cos", typeof(CosCalculator))]
+        [TestCase("naturalLogarithm", typeof(NaturalLogarithmCalculator))]
+        [TestCase("logTwo", typeof(LogarithmForBaseTwoCalculator))]
+        [TestCase("logTen", typeof(LogarithmForBaseTenCalculator))]
+        [TestCase("sqr", typeof(SquareCalculator))]
+        [TestCase("twoPowerOf", typeof(PowerOfTwoCalculator))]
+        [TestCase("tenPowerOf", typeof(PowerOfTenCalculator))]
+        [TestCase("negative", typeof(NegativeArgumentCalculator))]
         public void CalculateTest(string name, Type type)
         {
             var calculator = OneArgumentCalculatorFactory.createCalculator(name);
