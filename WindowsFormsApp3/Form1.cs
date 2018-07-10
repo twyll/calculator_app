@@ -27,6 +27,7 @@ namespace WindowsFormsApp3
             ICalculator calculator = CalculatorFactory.createCalculator(operationName);
             double res = calculator.Calculate(firstArgument, secondArgument);
             result.Text = Convert.ToString(res);
+            result.Text = Convert.ToString(res);
             
         }
         public static double add(double a, double b)
@@ -57,6 +58,11 @@ namespace WindowsFormsApp3
         }
 
         private void textBox3_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
         {
 
         }

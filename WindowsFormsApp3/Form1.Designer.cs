@@ -38,40 +38,38 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.cos = new System.Windows.Forms.Button();
+            this.sin = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // firstArgument
             // 
-            this.firstArgument.Location = new System.Drawing.Point(32, 46);
-            this.firstArgument.Margin = new System.Windows.Forms.Padding(4);
+            this.firstArgument.Location = new System.Drawing.Point(24, 37);
             this.firstArgument.Name = "firstArgument";
-            this.firstArgument.Size = new System.Drawing.Size(99, 22);
+            this.firstArgument.Size = new System.Drawing.Size(75, 20);
             this.firstArgument.TabIndex = 0;
             this.firstArgument.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // secondArgument
             // 
-            this.secondArgument.Location = new System.Drawing.Point(208, 46);
-            this.secondArgument.Margin = new System.Windows.Forms.Padding(4);
+            this.secondArgument.Location = new System.Drawing.Point(156, 37);
             this.secondArgument.Name = "secondArgument";
-            this.secondArgument.Size = new System.Drawing.Size(99, 22);
+            this.secondArgument.Size = new System.Drawing.Size(75, 20);
             this.secondArgument.TabIndex = 1;
             // 
             // result
             // 
-            this.result.Location = new System.Drawing.Point(57, 224);
-            this.result.Margin = new System.Windows.Forms.Padding(4);
+            this.result.Location = new System.Drawing.Point(43, 233);
             this.result.Name = "result";
-            this.result.Size = new System.Drawing.Size(227, 22);
+            this.result.Size = new System.Drawing.Size(171, 20);
             this.result.TabIndex = 2;
             this.result.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
             // addition
             // 
-            this.addition.Location = new System.Drawing.Point(32, 95);
-            this.addition.Margin = new System.Windows.Forms.Padding(4);
+            this.addition.Location = new System.Drawing.Point(24, 77);
             this.addition.Name = "addition";
-            this.addition.Size = new System.Drawing.Size(100, 28);
+            this.addition.Size = new System.Drawing.Size(75, 23);
             this.addition.TabIndex = 3;
             this.addition.Text = "+";
             this.addition.UseVisualStyleBackColor = true;
@@ -79,10 +77,9 @@
             // 
             // substraction
             // 
-            this.substraction.Location = new System.Drawing.Point(32, 145);
-            this.substraction.Margin = new System.Windows.Forms.Padding(4);
+            this.substraction.Location = new System.Drawing.Point(24, 118);
             this.substraction.Name = "substraction";
-            this.substraction.Size = new System.Drawing.Size(100, 28);
+            this.substraction.Size = new System.Drawing.Size(75, 23);
             this.substraction.TabIndex = 4;
             this.substraction.Text = "-";
             this.substraction.UseVisualStyleBackColor = true;
@@ -90,10 +87,9 @@
             // 
             // multiplication
             // 
-            this.multiplication.Location = new System.Drawing.Point(208, 95);
-            this.multiplication.Margin = new System.Windows.Forms.Padding(4);
+            this.multiplication.Location = new System.Drawing.Point(156, 77);
             this.multiplication.Name = "multiplication";
-            this.multiplication.Size = new System.Drawing.Size(100, 28);
+            this.multiplication.Size = new System.Drawing.Size(75, 23);
             this.multiplication.TabIndex = 5;
             this.multiplication.Text = "*";
             this.multiplication.UseVisualStyleBackColor = true;
@@ -101,10 +97,9 @@
             // 
             // division
             // 
-            this.division.Location = new System.Drawing.Point(208, 145);
-            this.division.Margin = new System.Windows.Forms.Padding(4);
+            this.division.Location = new System.Drawing.Point(156, 118);
             this.division.Name = "division";
-            this.division.Size = new System.Drawing.Size(100, 28);
+            this.division.Size = new System.Drawing.Size(75, 23);
             this.division.TabIndex = 6;
             this.division.Text = "/";
             this.division.UseVisualStyleBackColor = true;
@@ -113,10 +108,9 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(53, 22);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(40, 18);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(62, 17);
+            this.label1.Size = new System.Drawing.Size(49, 13);
             this.label1.TabIndex = 7;
             this.label1.Text = "Число A";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -124,10 +118,9 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(220, 22);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(165, 18);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(62, 17);
+            this.label2.Size = new System.Drawing.Size(49, 13);
             this.label2.TabIndex = 8;
             this.label2.Text = "Число B";
             this.label2.Click += new System.EventHandler(this.label2_Click);
@@ -135,18 +128,38 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(132, 191);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Location = new System.Drawing.Point(101, 206);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(76, 17);
+            this.label3.Size = new System.Drawing.Size(59, 13);
             this.label3.TabIndex = 9;
             this.label3.Text = "Результат";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
+            // 
+            // cos
+            // 
+            this.cos.Location = new System.Drawing.Point(156, 161);
+            this.cos.Name = "cos";
+            this.cos.Size = new System.Drawing.Size(75, 23);
+            this.cos.TabIndex = 10;
+            this.cos.Text = "cos";
+            this.cos.UseVisualStyleBackColor = true;
+            // 
+            // sin
+            // 
+            this.sin.Location = new System.Drawing.Point(24, 161);
+            this.sin.Name = "sin";
+            this.sin.Size = new System.Drawing.Size(75, 23);
+            this.sin.TabIndex = 11;
+            this.sin.Text = "sin";
+            this.sin.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(345, 279);
+            this.ClientSize = new System.Drawing.Size(259, 265);
+            this.Controls.Add(this.sin);
+            this.Controls.Add(this.cos);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -157,7 +170,6 @@
             this.Controls.Add(this.result);
             this.Controls.Add(this.secondArgument);
             this.Controls.Add(this.firstArgument);
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.Text = "Калькулятор";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -183,6 +195,8 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Button cos;
+        private System.Windows.Forms.Button sin;
     }
 }
 
