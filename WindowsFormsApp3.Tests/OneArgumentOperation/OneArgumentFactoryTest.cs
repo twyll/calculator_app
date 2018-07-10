@@ -27,7 +27,7 @@ namespace WindowsFormsApp3.Tests.OneArgumentOperation
 
         public void CalculateTest(string name, Type type)
         {
-            var calculator = OneArgumentCalculatorFactory.createCalculator(name);
+            var calculator = OneArgumentCalculatorFactory.CreateCalculator(name);
 
             Assert.IsInstanceOf(type, calculator);
         }

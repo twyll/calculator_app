@@ -21,7 +21,9 @@ namespace WindowsFormsApp3
         {
 
         }
-        
+        /// <summary>
+        /// method for processing button clicks for two argument operations
+        /// </summary>
         private void OpertionForTwoArgument(object sender, EventArgs e)
         {
             try
@@ -38,13 +40,16 @@ namespace WindowsFormsApp3
                 result.Text = exc.Message;
             }
         }
+        /// <summary>
+        /// method for processing button clicks for one argument operations
+        /// </summary>
         private void OpertionForOneArgument(object sender, EventArgs e)
         {
             try
             {
                 double argument = Convert.ToDouble(firstArgument.Text);
                 string operationName = ((Button) sender).Name;
-                IOneArgumentCalculator calculator = OneArgumentCalculatorFactory.createCalculator(operationName);
+                IOneArgumentCalculator calculator = OneArgumentCalculatorFactory.CreateCalculator(operationName);
                 double res = calculator.Calculate(argument);
                 result.Text = Convert.ToString(res);
             }

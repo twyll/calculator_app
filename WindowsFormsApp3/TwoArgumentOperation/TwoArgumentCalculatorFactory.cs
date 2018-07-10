@@ -1,10 +1,16 @@
 ﻿using System;
 
 namespace WindowsFormsApp3.TwoArgumentOperation
-{
+{/// <summary>
+/// Fabric class for two argument calculator classes
+/// </summary>
     public static class TwoArgumentCalculatorFactory
     {
-        
+        /// <summary>
+        /// creating object of desired two argument calculator classes
+        /// </summary>
+        /// <param name="operationName">name of the pressed button</param>
+        /// <returns>returns new object of desired class</returns>
         public static  ITwoArgumentCalculator createCalculator(string operationName)
             {
             switch (operationName)

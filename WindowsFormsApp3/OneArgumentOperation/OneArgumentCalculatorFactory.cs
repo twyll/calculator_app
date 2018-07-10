@@ -1,10 +1,16 @@
 ﻿using System;
 
 namespace WindowsFormsApp3.OneArgumentOperation
-{
+{/// <summary>
+/// factory class for creating desired classes depending on chosen operations
+/// </summary>
     public class OneArgumentCalculatorFactory
-    {
-        public static IOneArgumentCalculator createCalculator(string operationName)
+    {/// <summary>
+    /// method for creating examples of one argument calculator classes
+    /// </summary>
+    /// <param name="operationName">name of the button pressed</param>
+    /// <returns>return object of desired class</returns>
+        public static IOneArgumentCalculator CreateCalculator(string operationName)
         {
             switch (operationName)
             {

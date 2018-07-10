@@ -5,9 +5,15 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace WindowsFormsApp3.OneArgumentOperation
-{
+{/// <summary>
+/// Class for calculating arccos of argument
+/// </summary>
     public class ArccosCalculator : IOneArgumentCalculator
-    {
+    {/// <summary>
+    /// Calculating arccos of argument
+    /// </summary>
+    /// <param name="argument">Value in radians</param>
+    /// <returns>returns the angle of cosine </returns>
         public double Calculate(double argument)
         {
             if (argument > 1 || argument < -1)
