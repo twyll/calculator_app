@@ -19,7 +19,7 @@ namespace WindowsFormsApp3.Tests.TwoArgumentOperation
         [TestCase("integerDivision",typeof(IntegerDivisionCalculator))]
         public void CalculateTest(string name, Type type)
         {
-            var calculator = TwoArgumentCalculatorFactory.createCalculator(name);
+            var calculator = TwoArgumentCalculatorFactory.CreateCalculator(name);
             Assert.IsInstanceOf(type, calculator);
         }
     }

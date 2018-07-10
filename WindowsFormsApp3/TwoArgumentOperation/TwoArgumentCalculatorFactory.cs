@@ -11,7 +11,7 @@ namespace WindowsFormsApp3.TwoArgumentOperation
         /// </summary>
         /// <param name="operationName">name of the pressed button</param>
         /// <returns>returns new object of desired class</returns>
-        public static  ITwoArgumentCalculator createCalculator(string operationName)
+        public static  ITwoArgumentCalculator CreateCalculator(string operationName)
             {
             switch (operationName)
             {
