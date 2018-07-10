@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace WindowsFormsApp3
 {
-    public class SubstractionCalculator: I2ArgumentCalculator
+    public class CosCalculator: IOneArgumentCalculator
     {
-        public double Calculate(double firstValue, double secondValue)
+        public double Calculate(double argument)
         {
-            return firstValue - secondValue;
+            return Math.Cos(argument);
         }
     }
 }

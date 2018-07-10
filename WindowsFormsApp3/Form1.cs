@@ -19,35 +19,25 @@ namespace WindowsFormsApp3
         {
 
         }
-        private void buttonClick(object sender, EventArgs e)
+        private void OpertionForTwoArgument(object sender, EventArgs e)
         {
             double firstArgument = Convert.ToDouble(this.firstArgument.Text);
             double secondArgument = Convert.ToDouble(this.secondArgument.Text);
             string operationName = ((Button)sender).Name;
-            I2ArgumentCalculator calculator = _2ArgumentCalculatorFactory.createCalculator(operationName);
+            ITwoArgumentCalculator calculator = TwoArgumentCalculatorFactory.createCalculator(operationName);
             double res = calculator.Calculate(firstArgument, secondArgument);
             result.Text = Convert.ToString(res);
+        }
+        private void OpertionForOneArgument(object sender, EventArgs e)
+        {
+            double argument = Convert.ToDouble(firstArgument.Text);
+            string operationName = ((Button)sender).Name;
+            IOneArgumentCalculator calculator = OneArgumentCalculatorFactory.createCalculator(operationName);
+            double res = calculator.Calculate(argument);
             result.Text = Convert.ToString(res);
-            
-        }
-        public static double add(double a, double b)
-        {
-            return a + b;
-        }
-        public static double substr(double a, double b)
-        {
-            return a - b;
-        }
-        public static double multiply(double a, double b)
-        {
-            return a * b;
-        }
-        public static double div(double a, double b)
-        {
-            return a / b;
         }
 
-        private void label1_Click(object sender, EventArgs e)
+            private void label1_Click(object sender, EventArgs e)
         {
 
         }

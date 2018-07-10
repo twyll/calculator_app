@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WindowsFormsApp3._1_Argument_operation
+namespace WindowsFormsApp3
 {
-    class _1ArgumentCalculatorFactory
+    class OneArgumentCalculatorFactory
     {
-        public static I1ArgumentCalculator createCalculator(string operationName)
+        public static IOneArgumentCalculator createCalculator(string operationName)
         {
             switch (operationName)
             {

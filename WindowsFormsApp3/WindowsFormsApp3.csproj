@@ -45,15 +45,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="1 Argument operation\1ArgumentCalculatorFactory.cs" />
-    <Compile Include="1 Argument operation\CosCalculator.cs" />
-    <Compile Include="1 Argument operation\I1ArgumentCalculator.cs" />
-    <Compile Include="2 Argument operation\AdditionCalculator.cs" />
-    <Compile Include="2 Argument operation\2ArgumentCalculatorFactory.cs" />
-    <Compile Include="2 Argument operation\I2ArgumentCalculator.cs" />
-    <Compile Include="2 Argument operation\DivisionCalculator.cs" />
-    <Compile Include="2 Argument operation\MultiplicationCalculator.cs" />
-    <Compile Include="1 Argument operation\SineCalculator.cs" />
+    <Compile Include="OneArgumentOperation\OneArgumentCalculatorFactory.cs" />
+    <Compile Include="OneArgumentOperation\CosCalculator.cs" />
+    <Compile Include="OneArgumentOperation\IOneArgumentCalculator.cs" />
+    <Compile Include="TwoArgumentOperation\AdditionCalculator.cs" />
+    <Compile Include="TwoArgumentOperation\TwoArgumentCalculatorFactory.cs" />
+    <Compile Include="TwoArgumentOperation\ITwoArgumentCalculator.cs" />
+    <Compile Include="TwoArgumentOperation\DivisionCalculator.cs" />
+    <Compile Include="TwoArgumentOperation\MultiplicationCalculator.cs" />
+    <Compile Include="OneArgumentOperation\SineCalculator.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -62,7 +62,7 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="2 Argument operation\SubstractionCalculator.cs" />
+    <Compile Include="TwoArgumentOperation\SubstractionCalculator.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>

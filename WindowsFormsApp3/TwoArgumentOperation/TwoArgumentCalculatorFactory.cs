@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace WindowsFormsApp3
 {
-    public static class _2ArgumentCalculatorFactory
+    public static class TwoArgumentCalculatorFactory
     {
         
-        public static  I2ArgumentCalculator createCalculator(string operationName)
+        public static  ITwoArgumentCalculator createCalculator(string operationName)
             {
             switch (operationName)
             {

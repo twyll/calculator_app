@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WindowsFormsApp3._1_Argument_operation
+namespace WindowsFormsApp3
 {
-    public interface I1ArgumentCalculator
+    public interface ITwoArgumentCalculator
     {
-        double Calculate(double Argument);
+        double Calculate(double firstValue, double secondValue);
     }
 }

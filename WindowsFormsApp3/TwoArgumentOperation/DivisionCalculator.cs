@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace WindowsFormsApp3
 {
-    public class AdditionCalculator : I2ArgumentCalculator
+    public class DivisionCalculator : ITwoArgumentCalculator
     {
         public double Calculate(double firstValue, double secondValue)
         {
-            return firstValue + secondValue;
+            return firstValue / secondValue;
         }
     }
 }

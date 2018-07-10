@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace WindowsFormsApp3
 {
-    public class DivisionCalculator : I2ArgumentCalculator
+    public class SineCalculator: IOneArgumentCalculator
     {
-        public double Calculate(double firstValue, double secondValue)
+        public double Calculate(double argument)
         {
-            return firstValue / secondValue;
+            return Math.Sin(argument);
         }
     }
 }
