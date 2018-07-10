@@ -23,6 +23,12 @@ namespace WindowsFormsApp3.TwoArgumentOperation
                     return new AverageArithmeticCalculator();
                 case "geometric":
                     return new AverageGeometricCalculator();
+                case "min":
+                    return new minimumOfCalculator();
+                case "remainder":
+                    return new RemainderCalculator();
+                case "integerDivision":
+                    return new IntegerDivisionCalculator();
                 default:
                     throw new ArgumentException("Неизвестная операция", "operationName") ;
             }
