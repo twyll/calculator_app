@@ -58,5 +58,20 @@ namespace WindowsFormsApp3
         {
 
         }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void geometric_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void naturalLogarithm_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
