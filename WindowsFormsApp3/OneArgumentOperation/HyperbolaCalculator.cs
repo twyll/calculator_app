@@ -1,9 +1,10 @@
 ﻿using System;
 
 namespace WindowsFormsApp3.OneArgumentOperation
-{/// <summary>
-/// Class for calculating 1/x values
-/// </summary>
+{
+    /// <summary>
+    /// Class for calculating 1/x values
+    /// </summary>
     public class HyperbolaCalculator : IOneArgumentCalculator
     {
         /// <summary>
@@ -17,7 +18,7 @@ namespace WindowsFormsApp3.OneArgumentOperation
             {
                 throw new Exception("Деление на 0");
             }
-            return 1/argument;
+            return 1 / argument;
         }
     }
 }

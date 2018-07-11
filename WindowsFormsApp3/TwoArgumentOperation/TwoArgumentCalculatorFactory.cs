@@ -1,9 +1,10 @@
 ﻿using System;
 
 namespace WindowsFormsApp3.TwoArgumentOperation
-{/// <summary>
-/// Fabric class for two argument calculator classes
-/// </summary>
+{
+    /// <summary>
+    /// Fabric class for two argument calculator classes
+    /// </summary>
     public static class TwoArgumentCalculatorFactory
     {
         /// <summary>
@@ -11,8 +12,8 @@ namespace WindowsFormsApp3.TwoArgumentOperation
         /// </summary>
         /// <param name="operationName">name of the pressed button</param>
         /// <returns>returns new object of desired class</returns>
-        public static  ITwoArgumentCalculator CreateCalculator(string operationName)
-            {
+        public static ITwoArgumentCalculator CreateCalculator(string operationName)
+        {
             switch (operationName)
             {
                 case "addition":
@@ -36,8 +37,8 @@ namespace WindowsFormsApp3.TwoArgumentOperation
                 case "integerDivision":
                     return new IntegerDivisionCalculator();
                 default:
-                    throw new ArgumentException("Неизвестная операция", "operationName") ;
+                    throw new ArgumentException("Неизвестная операция", "operationName");
             }
-            }
-    }       
+        }
+    }
 }

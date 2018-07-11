@@ -1,9 +1,10 @@
 ﻿using System;
 
 namespace WindowsFormsApp3.OneArgumentOperation
-{/// <summary>
-/// Class for calculating cosine of argument
-/// </summary>
+{
+    /// <summary>
+    /// Class for calculating cosine of argument
+    /// </summary>
     public class CosCalculator : IOneArgumentCalculator
     {
         /// <summary>
