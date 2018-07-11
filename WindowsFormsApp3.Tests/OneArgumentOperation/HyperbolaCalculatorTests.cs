@@ -5,7 +5,7 @@ using NUnit.Framework;
 namespace WindowsFormsApp3.Tests.OneArgumentOperation
 {
     [TestFixture]
-    public class HyperbolaCalculatorTestCase
+    public class HyperbolaCalculatorTests
     {
         [TestCase(1, 1)]
         [TestCase(0.5, 2)]

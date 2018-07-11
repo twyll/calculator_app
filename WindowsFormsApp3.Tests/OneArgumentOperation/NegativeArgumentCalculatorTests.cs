@@ -4,7 +4,7 @@ using NUnit.Framework;
 namespace WindowsFormsApp3.Tests.OneArgumentOperation
 {
     [TestFixture]
-    public class NegativeArgumentCalculatorTestCase
+    public class NegativeArgumentCalculatorTests
     {
         [TestCase(0, 0)]
         [TestCase(-3.345, 3.345)]

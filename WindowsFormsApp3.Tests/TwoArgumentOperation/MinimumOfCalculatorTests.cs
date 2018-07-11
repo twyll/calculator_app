@@ -4,14 +4,14 @@ using NUnit.Framework;
 namespace WindowsFormsApp3.Tests.TwoArgumentOperation
 {
     [TestFixture]
-    public class MultiplicationCalculatorTestCase
+    public class MinimumOfCalculatorTests
     {
-        [TestCase(0, 0, 0)]
-        [TestCase(3, 4, 12)]
-        [TestCase(-7, -2, 14)]
+        [TestCase(2, 2, 2)]
+        [TestCase(-5, 4, -5)]
+        [TestCase(-3, 8, -3)]
         public void CalculateTest(double firstValue, double secondValue, double expected)
         {
-            var calculator = new MultiplicationCalculator();
+            var calculator = new MinimumOfCalculator();
             var actualResult = calculator.Calculate(firstValue, secondValue);
             Assert.AreEqual(expected, actualResult);
         }

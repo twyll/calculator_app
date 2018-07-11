@@ -5,7 +5,7 @@ using NUnit.Framework;
 namespace WindowsFormsApp3.Tests.OneArgumentOperation
 {
     [TestFixture]
-    public class SineCalculatorTestCase
+    public class SineCalculatorTests
     {
         [TestCase(0, 0)]
         [TestCase(Math.PI, 0)]

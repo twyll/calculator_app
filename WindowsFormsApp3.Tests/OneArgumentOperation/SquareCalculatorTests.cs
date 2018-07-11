@@ -4,14 +4,14 @@ using NUnit.Framework;
 namespace WindowsFormsApp3.Tests.OneArgumentOperation
 {
     [TestFixture]
-    public class PowerOfTenCalculatorTestCase
+    public class SquareCalculatorTests
     {
-        [TestCase(0, 1)]
-        [TestCase(1.4, 25.1188)]
-        [TestCase(-0.5, 0.3162)]
+        [TestCase(0, 0)]
+        [TestCase(1.2, 1.44)]
+        [TestCase(-1.6, 2.56)]
         public void CalculateTest(double firstValue, double expected)
         {
-            var calculator = new PowerOfTenCalculator();
+            var calculator = new SquareCalculator();
             var actualResult = calculator.Calculate(firstValue);
             Assert.AreEqual(expected, actualResult, 0.0001);
         }

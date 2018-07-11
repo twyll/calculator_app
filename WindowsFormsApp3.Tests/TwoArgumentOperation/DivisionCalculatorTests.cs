@@ -5,14 +5,14 @@ using NUnit.Framework;
 namespace WindowsFormsApp3.Tests.TwoArgumentOperation
 {
     [TestFixture]
-    public class RemainderCalculatorTestCase
+    public class DivisionCalculatorTests
     {
-        [TestCase(2, 2, 0)]
-        [TestCase(3, 4, 3)]
-        [TestCase(-3, -8, -3)]
+        [TestCase(2, 2, 1)]
+        [TestCase(3, 4, 0.75)]
+        [TestCase(-3, -8, 0.375)]
         public void CalculateTest(double firstValue, double secondValue, double expected)
         {
-            var calculator = new RemainderCalculator();
+            var calculator = new DivisionCalculator();
             var actualResult = calculator.Calculate(firstValue, secondValue);
             Assert.AreEqual(expected, actualResult);
         }

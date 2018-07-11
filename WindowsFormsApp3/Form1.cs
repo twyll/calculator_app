@@ -32,8 +32,8 @@ namespace WindowsFormsApp3
                 double secondArgument = Convert.ToDouble(this.secondArgument.Text);
                 string operationName = ((Button) sender).Name;
                 ITwoArgumentCalculator calculator = TwoArgumentCalculatorFactory.CreateCalculator(operationName);
-                double res = calculator.Calculate(firstArgument, secondArgument);
-                result.Text = Convert.ToString(res);
+                double resultValue = calculator.Calculate(firstArgument, secondArgument);
+                result.Text = Convert.ToString(resultValue);
             }
             catch (Exception exc)
             {
@@ -50,8 +50,8 @@ namespace WindowsFormsApp3
                 double argument = Convert.ToDouble(firstArgument.Text);
                 string operationName = ((Button) sender).Name;
                 IOneArgumentCalculator calculator = OneArgumentCalculatorFactory.CreateCalculator(operationName);
-                double res = calculator.Calculate(argument);
-                result.Text = Convert.ToString(res);
+                double resultValue = calculator.Calculate(argument);
+                result.Text = Convert.ToString(resultValue);
             }
             catch (Exception exc)
             {

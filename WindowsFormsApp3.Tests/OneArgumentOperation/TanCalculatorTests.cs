@@ -5,24 +5,24 @@ using NUnit.Framework;
 namespace WindowsFormsApp3.Tests.OneArgumentOperation
 {
     [TestFixture]
-    public class CtanCalculatorTestCase
+    public class TanCalculatorTests
     {
-        [TestCase(1, 0.64)]
-        [TestCase(0.5, 1.83)]
-        [TestCase(-1, -0.64)]
+        [TestCase(Math.PI, 0)]
+        [TestCase(-Math.PI, 0)]
+        [TestCase(-1, -1.55)]
         public void CalculateTest(double firstValue, double expected)
         {
-            var calculator = new CtanCalculator();
+            var calculator = new TanCalculator();
             var actualResult = calculator.Calculate(firstValue);
             Assert.AreEqual(expected, actualResult, 0.01);
         }
 
-        [TestCase(0)]
-        [TestCase(2*Math.PI)]
-        [TestCase(Math.PI)]
+        [TestCase(-Math.PI/2)]
+        [TestCase(Math.PI/2)]
+        [TestCase(3*Math.PI/2)]
         public void CatchExceptions(double argument)
         {
-            var calculator = new CtanCalculator();
+            var calculator = new TanCalculator();
             Assert.Throws<Exception>(() => calculator.Calculate(argument));
         }
     }

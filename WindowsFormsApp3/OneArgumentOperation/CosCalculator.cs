@@ -4,7 +4,7 @@ namespace WindowsFormsApp3.OneArgumentOperation
 {/// <summary>
 /// Class for calculating cosine of argument
 /// </summary>
-    public class CosCalculator: IOneArgumentCalculator
+    public class CosCalculator : IOneArgumentCalculator
     {
         /// <summary>
         /// calculating cosine of argument

@@ -5,7 +5,7 @@ using NUnit.Framework;
 namespace WindowsFormsApp3.Tests.TwoArgumentOperation
 {
     [TestFixture]
-    public class IntegerDivisionCalculatorTestCase
+    public class IntegerDivisionCalculatorTests
     {
         [TestCase(2, 2, 1)]
         [TestCase(3, 4, 0)]

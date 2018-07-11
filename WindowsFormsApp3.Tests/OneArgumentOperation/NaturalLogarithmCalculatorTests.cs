@@ -4,18 +4,19 @@ using NUnit.Framework;
 
 namespace WindowsFormsApp3.Tests.OneArgumentOperation
 {
-   [TestFixture]
-   public class LogarithmForBaseTenCalculatorTestCase
+    [TestFixture]
+    public class NaturalLogarithmCalculatorTests
     {
         [TestCase(1, 0)]
-        [TestCase(1000, 3)]
-        [TestCase(8, 0.9031)]
+        [TestCase(3, 1.0986)]
+        [TestCase(7, 1.9459)]
         public void CalculateTest(double firstValue, double expected)
         {
-            var calculator = new LogarithmForBaseTenCalculator();
+            var calculator = new NaturalLogarithmCalculator();
             var actualResult = calculator.Calculate(firstValue);
             Assert.AreEqual(expected, actualResult, 0.0001);
         }
+
         [Test]
         public void CathExceptions()
         {
