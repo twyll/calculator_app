@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using WindowsFormsApp3.TwoArgumentOperation;
 
 namespace CalculatorWebInterface.Controllers
 {
@@ -77,7 +78,9 @@ namespace CalculatorWebInterface.Controllers
                 }
             };
 
-
+            ITwoArgumentCalculator calculator = TwoArgumentCalculatorFactory.CreateCalculator(operation);
+            double resultValue = calculator.Calculate(firstArgument, secondArgument);
+            ViewBag.Result = resultValue;
             return View();
         }
     }

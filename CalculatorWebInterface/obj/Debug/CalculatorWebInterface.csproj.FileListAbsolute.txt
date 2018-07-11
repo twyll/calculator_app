@@ -47,3 +47,6 @@ C:\Users\Vika Sycheva\Documents\GitHub\calculator_app\CalculatorWebInterface\obj
 C:\Users\Vika Sycheva\Documents\GitHub\calculator_app\CalculatorWebInterface\obj\Debug\CalculatorWebInterface.csproj.CoreCompileInputs.cache
 C:\Users\Vika Sycheva\Documents\GitHub\calculator_app\CalculatorWebInterface\obj\Debug\CalculatorWebInterface.dll
 C:\Users\Vika Sycheva\Documents\GitHub\calculator_app\CalculatorWebInterface\obj\Debug\CalculatorWebInterface.pdb
+C:\Users\Vika Sycheva\Documents\GitHub\calculator_app\CalculatorWebInterface\bin\WindowsFormsApp3.exe
+C:\Users\Vika Sycheva\Documents\GitHub\calculator_app\CalculatorWebInterface\bin\WindowsFormsApp3.pdb
+C:\Users\Vika Sycheva\Documents\GitHub\calculator_app\CalculatorWebInterface\bin\WindowsFormsApp3.exe.config
