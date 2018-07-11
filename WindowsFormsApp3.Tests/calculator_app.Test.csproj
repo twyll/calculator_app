@@ -77,9 +77,9 @@
     <Compile Include="TwoArgumentOperation\SubstractionCalculatorTests.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\WindowsFormsApp3\WindowsFormsApp3.csproj">
+    <ProjectReference Include="..\WindowsFormsApp3\calculator_app.csproj">
       <Project>{69008457-a301-4faa-b9b2-be554ed0be6d}</Project>
-      <Name>WindowsFormsApp3</Name>
+      <Name>calculator_app</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

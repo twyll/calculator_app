@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.2002
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApp3", "WindowsFormsApp3\WindowsFormsApp3.csproj", "{69008457-A301-4FAA-B9B2-BE554ED0BE6D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "calculator_app", "WindowsFormsApp3\calculator_app.csproj", "{69008457-A301-4FAA-B9B2-BE554ED0BE6D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApp3.Tests", "WindowsFormsApp3.Tests\WindowsFormsApp3.Tests.csproj", "{B299594D-2564-47E7-924F-615C75D44955}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "calculator_app.Test", "WindowsFormsApp3.Tests\calculator_app.Test.csproj", "{B299594D-2564-47E7-924F-615C75D44955}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

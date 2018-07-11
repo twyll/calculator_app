@@ -68,7 +68,7 @@
             // firstArgument
             // 
             this.firstArgument.Location = new System.Drawing.Point(32, 46);
-            this.firstArgument.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.firstArgument.Margin = new System.Windows.Forms.Padding(4);
             this.firstArgument.Name = "firstArgument";
             this.firstArgument.Size = new System.Drawing.Size(99, 22);
             this.firstArgument.TabIndex = 0;
@@ -77,7 +77,7 @@
             // secondArgument
             // 
             this.secondArgument.Location = new System.Drawing.Point(148, 46);
-            this.secondArgument.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.secondArgument.Margin = new System.Windows.Forms.Padding(4);
             this.secondArgument.Name = "secondArgument";
             this.secondArgument.Size = new System.Drawing.Size(99, 22);
             this.secondArgument.TabIndex = 1;
@@ -85,7 +85,7 @@
             // result
             // 
             this.result.Location = new System.Drawing.Point(309, 46);
-            this.result.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.result.Margin = new System.Windows.Forms.Padding(4);
             this.result.Name = "result";
             this.result.Size = new System.Drawing.Size(208, 22);
             this.result.TabIndex = 2;
@@ -93,7 +93,7 @@
             // addition
             // 
             this.addition.Location = new System.Drawing.Point(31, 125);
-            this.addition.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.addition.Margin = new System.Windows.Forms.Padding(4);
             this.addition.Name = "addition";
             this.addition.Size = new System.Drawing.Size(100, 28);
             this.addition.TabIndex = 3;
@@ -104,7 +104,7 @@
             // substraction
             // 
             this.substraction.Location = new System.Drawing.Point(31, 160);
-            this.substraction.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.substraction.Margin = new System.Windows.Forms.Padding(4);
             this.substraction.Name = "substraction";
             this.substraction.Size = new System.Drawing.Size(100, 28);
             this.substraction.TabIndex = 4;
@@ -115,7 +115,7 @@
             // multiplication
             // 
             this.multiplication.Location = new System.Drawing.Point(147, 125);
-            this.multiplication.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.multiplication.Margin = new System.Windows.Forms.Padding(4);
             this.multiplication.Name = "multiplication";
             this.multiplication.Size = new System.Drawing.Size(100, 28);
             this.multiplication.TabIndex = 5;
@@ -126,7 +126,7 @@
             // division
             // 
             this.division.Location = new System.Drawing.Point(147, 160);
-            this.division.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.division.Margin = new System.Windows.Forms.Padding(4);
             this.division.Name = "division";
             this.division.Size = new System.Drawing.Size(100, 28);
             this.division.TabIndex = 6;
@@ -166,8 +166,8 @@
             // 
             // cos
             // 
-            this.cos.Location = new System.Drawing.Point(219, 269);
-            this.cos.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cos.Location = new System.Drawing.Point(180, 276);
+            this.cos.Margin = new System.Windows.Forms.Padding(4);
             this.cos.Name = "cos";
             this.cos.Size = new System.Drawing.Size(100, 28);
             this.cos.TabIndex = 10;
@@ -177,8 +177,8 @@
             // 
             // sin
             // 
-            this.sin.Location = new System.Drawing.Point(111, 269);
-            this.sin.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.sin.Location = new System.Drawing.Point(72, 276);
+            this.sin.Margin = new System.Windows.Forms.Padding(4);
             this.sin.Name = "sin";
             this.sin.Size = new System.Drawing.Size(100, 28);
             this.sin.TabIndex = 11;
@@ -189,7 +189,7 @@
             // remainder
             // 
             this.remainder.Location = new System.Drawing.Point(417, 125);
-            this.remainder.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.remainder.Margin = new System.Windows.Forms.Padding(4);
             this.remainder.Name = "remainder";
             this.remainder.Size = new System.Drawing.Size(100, 28);
             this.remainder.TabIndex = 12;
@@ -199,8 +199,8 @@
             // 
             // ctan
             // 
-            this.ctan.Location = new System.Drawing.Point(111, 305);
-            this.ctan.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ctan.Location = new System.Drawing.Point(396, 276);
+            this.ctan.Margin = new System.Windows.Forms.Padding(4);
             this.ctan.Name = "ctan";
             this.ctan.Size = new System.Drawing.Size(100, 28);
             this.ctan.TabIndex = 13;
@@ -210,8 +210,8 @@
             // 
             // hyperbola
             // 
-            this.hyperbola.Location = new System.Drawing.Point(219, 341);
-            this.hyperbola.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.hyperbola.Location = new System.Drawing.Point(397, 349);
+            this.hyperbola.Margin = new System.Windows.Forms.Padding(4);
             this.hyperbola.Name = "hyperbola";
             this.hyperbola.Size = new System.Drawing.Size(100, 28);
             this.hyperbola.TabIndex = 14;
@@ -221,8 +221,8 @@
             // 
             // tan
             // 
-            this.tan.Location = new System.Drawing.Point(327, 269);
-            this.tan.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tan.Location = new System.Drawing.Point(288, 276);
+            this.tan.Margin = new System.Windows.Forms.Padding(4);
             this.tan.Name = "tan";
             this.tan.Size = new System.Drawing.Size(100, 28);
             this.tan.TabIndex = 15;
@@ -232,8 +232,8 @@
             // 
             // arctan
             // 
-            this.arctan.Location = new System.Drawing.Point(219, 305);
-            this.arctan.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.arctan.Location = new System.Drawing.Point(72, 313);
+            this.arctan.Margin = new System.Windows.Forms.Padding(4);
             this.arctan.Name = "arctan";
             this.arctan.Size = new System.Drawing.Size(100, 28);
             this.arctan.TabIndex = 16;
@@ -244,7 +244,7 @@
             // min
             // 
             this.min.Location = new System.Drawing.Point(309, 161);
-            this.min.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.min.Margin = new System.Windows.Forms.Padding(4);
             this.min.Name = "min";
             this.min.Size = new System.Drawing.Size(100, 28);
             this.min.TabIndex = 17;
@@ -255,7 +255,7 @@
             // geometric
             // 
             this.geometric.Location = new System.Drawing.Point(417, 197);
-            this.geometric.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.geometric.Margin = new System.Windows.Forms.Padding(4);
             this.geometric.Name = "geometric";
             this.geometric.Size = new System.Drawing.Size(100, 28);
             this.geometric.TabIndex = 18;
@@ -265,8 +265,8 @@
             // 
             // negative
             // 
-            this.negative.Location = new System.Drawing.Point(327, 341);
-            this.negative.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.negative.Location = new System.Drawing.Point(396, 313);
+            this.negative.Margin = new System.Windows.Forms.Padding(4);
             this.negative.Name = "negative";
             this.negative.Size = new System.Drawing.Size(100, 28);
             this.negative.TabIndex = 19;
@@ -276,8 +276,8 @@
             // 
             // arcsin
             // 
-            this.arcsin.Location = new System.Drawing.Point(112, 341);
-            this.arcsin.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.arcsin.Location = new System.Drawing.Point(180, 313);
+            this.arcsin.Margin = new System.Windows.Forms.Padding(4);
             this.arcsin.Name = "arcsin";
             this.arcsin.Size = new System.Drawing.Size(100, 28);
             this.arcsin.TabIndex = 20;
@@ -287,8 +287,8 @@
             // 
             // arccos
             // 
-            this.arccos.Location = new System.Drawing.Point(327, 305);
-            this.arccos.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.arccos.Location = new System.Drawing.Point(288, 312);
+            this.arccos.Margin = new System.Windows.Forms.Padding(4);
             this.arccos.Name = "arccos";
             this.arccos.Size = new System.Drawing.Size(100, 28);
             this.arccos.TabIndex = 21;
@@ -299,7 +299,7 @@
             // arithmetic
             // 
             this.arithmetic.Location = new System.Drawing.Point(309, 196);
-            this.arithmetic.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.arithmetic.Margin = new System.Windows.Forms.Padding(4);
             this.arithmetic.Name = "arithmetic";
             this.arithmetic.Size = new System.Drawing.Size(100, 28);
             this.arithmetic.TabIndex = 22;
@@ -310,7 +310,7 @@
             // integerDivision
             // 
             this.integerDivision.Location = new System.Drawing.Point(309, 125);
-            this.integerDivision.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.integerDivision.Margin = new System.Windows.Forms.Padding(4);
             this.integerDivision.Name = "integerDivision";
             this.integerDivision.Size = new System.Drawing.Size(100, 28);
             this.integerDivision.TabIndex = 23;
@@ -321,7 +321,7 @@
             // max
             // 
             this.max.Location = new System.Drawing.Point(417, 161);
-            this.max.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.max.Margin = new System.Windows.Forms.Padding(4);
             this.max.Name = "max";
             this.max.Size = new System.Drawing.Size(100, 28);
             this.max.TabIndex = 24;
@@ -331,8 +331,8 @@
             // 
             // exp
             // 
-            this.exp.Location = new System.Drawing.Point(111, 377);
-            this.exp.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.exp.Location = new System.Drawing.Point(72, 349);
+            this.exp.Margin = new System.Windows.Forms.Padding(4);
             this.exp.Name = "exp";
             this.exp.Size = new System.Drawing.Size(100, 28);
             this.exp.TabIndex = 25;
@@ -342,8 +342,8 @@
             // 
             // tenPowerOf
             // 
-            this.tenPowerOf.Location = new System.Drawing.Point(219, 449);
-            this.tenPowerOf.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tenPowerOf.Location = new System.Drawing.Point(396, 385);
+            this.tenPowerOf.Margin = new System.Windows.Forms.Padding(4);
             this.tenPowerOf.Name = "tenPowerOf";
             this.tenPowerOf.Size = new System.Drawing.Size(100, 28);
             this.tenPowerOf.TabIndex = 26;
@@ -353,8 +353,8 @@
             // 
             // twoPowerOf
             // 
-            this.twoPowerOf.Location = new System.Drawing.Point(327, 413);
-            this.twoPowerOf.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.twoPowerOf.Location = new System.Drawing.Point(288, 385);
+            this.twoPowerOf.Margin = new System.Windows.Forms.Padding(4);
             this.twoPowerOf.Name = "twoPowerOf";
             this.twoPowerOf.Size = new System.Drawing.Size(100, 28);
             this.twoPowerOf.TabIndex = 27;
@@ -364,8 +364,8 @@
             // 
             // naturalLogarithm
             // 
-            this.naturalLogarithm.Location = new System.Drawing.Point(219, 377);
-            this.naturalLogarithm.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.naturalLogarithm.Location = new System.Drawing.Point(180, 349);
+            this.naturalLogarithm.Margin = new System.Windows.Forms.Padding(4);
             this.naturalLogarithm.Name = "naturalLogarithm";
             this.naturalLogarithm.Size = new System.Drawing.Size(100, 28);
             this.naturalLogarithm.TabIndex = 28;
@@ -375,8 +375,8 @@
             // 
             // logTwo
             // 
-            this.logTwo.Location = new System.Drawing.Point(327, 377);
-            this.logTwo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.logTwo.Location = new System.Drawing.Point(288, 349);
+            this.logTwo.Margin = new System.Windows.Forms.Padding(4);
             this.logTwo.Name = "logTwo";
             this.logTwo.Size = new System.Drawing.Size(100, 28);
             this.logTwo.TabIndex = 29;
@@ -386,8 +386,8 @@
             // 
             // logTen
             // 
-            this.logTen.Location = new System.Drawing.Point(111, 413);
-            this.logTen.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.logTen.Location = new System.Drawing.Point(71, 385);
+            this.logTen.Margin = new System.Windows.Forms.Padding(4);
             this.logTen.Name = "logTen";
             this.logTen.Size = new System.Drawing.Size(100, 28);
             this.logTen.TabIndex = 30;
@@ -397,8 +397,8 @@
             // 
             // sqr
             // 
-            this.sqr.Location = new System.Drawing.Point(219, 413);
-            this.sqr.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.sqr.Location = new System.Drawing.Point(180, 385);
+            this.sqr.Margin = new System.Windows.Forms.Padding(4);
             this.sqr.Name = "sqr";
             this.sqr.Size = new System.Drawing.Size(100, 28);
             this.sqr.TabIndex = 31;
@@ -437,7 +437,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(557, 491);
+            this.ClientSize = new System.Drawing.Size(555, 440);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
@@ -473,7 +473,7 @@
             this.Controls.Add(this.result);
             this.Controls.Add(this.secondArgument);
             this.Controls.Add(this.firstArgument);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.Text = "Калькулятор";
             this.Load += new System.EventHandler(this.Form1_Load);
