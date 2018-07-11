@@ -83,7 +83,6 @@
             this.result.Name = "result";
             this.result.Size = new System.Drawing.Size(250, 20);
             this.result.TabIndex = 2;
-            this.result.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
             // addition
             // 
@@ -133,7 +132,6 @@
             this.label1.Size = new System.Drawing.Size(49, 13);
             this.label1.TabIndex = 7;
             this.label1.Text = "Число A";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -143,7 +141,6 @@
             this.label2.Size = new System.Drawing.Size(49, 13);
             this.label2.TabIndex = 8;
             this.label2.Text = "Число B";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label3
             // 
@@ -153,7 +150,6 @@
             this.label3.Size = new System.Drawing.Size(59, 13);
             this.label3.TabIndex = 9;
             this.label3.Text = "Результат";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // cos
             // 

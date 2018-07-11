@@ -28,12 +28,16 @@ namespace WindowsFormsApp3
         {
             try
             {
-                double firstArgument = Convert.ToDouble(this.firstArgument.Text);
-                double secondArgument = Convert.ToDouble(this.secondArgument.Text);
+                double firstNumber = Convert.ToDouble(firstArgument.Text);
+                double secondNumber = Convert.ToDouble(secondArgument.Text);
                 string operationName = ((Button) sender).Name;
                 ITwoArgumentCalculator calculator = TwoArgumentCalculatorFactory.CreateCalculator(operationName);
-                double resultValue = calculator.Calculate(firstArgument, secondArgument);
+                double resultValue = calculator.Calculate(firstNumber, secondNumber);
                 result.Text = Convert.ToString(resultValue);
+            }
+            catch (FormatException fe)
+            {
+
             }
             catch (Exception exc)
             {
@@ -57,41 +61,6 @@ namespace WindowsFormsApp3
             {
                 result.Text = exc.Message;
             }
-        }
-
-            private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox3_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button8_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void geometric_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void naturalLogarithm_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
