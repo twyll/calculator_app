@@ -35,9 +35,9 @@ namespace WindowsFormsApp3
                 double resultValue = calculator.Calculate(firstNumber, secondNumber);
                 result.Text = Convert.ToString(resultValue);
             }
-            catch (FormatException fe)
+            catch (FormatException exc)
             {
-
+                result.Text = "Введите число";
             }
             catch (Exception exc)
             {
@@ -56,6 +56,10 @@ namespace WindowsFormsApp3
                 IOneArgumentCalculator calculator = OneArgumentCalculatorFactory.CreateCalculator(operationName);
                 double resultValue = calculator.Calculate(argument);
                 result.Text = Convert.ToString(resultValue);
+            }
+            catch (FormatException exc)
+            {
+                result.Text = "Введите число";
             }
             catch (Exception exc)
             {
